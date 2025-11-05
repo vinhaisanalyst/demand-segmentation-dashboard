@@ -1,18 +1,14 @@
 # Product Demand Segmentation & Time-Window Merchandising (Grocery eCommerce)
 
 ## Project Background
-**Instacart** is an online grocery marketplace where repeat behavior and timing drive revenue. Stakeholders lacked clarity on when customers order and which items to market. This project segmented customers by purchase cadence, identified peak ordering windows, and uncovered reliable product complements to guide merchandising and messaging. Scope: BigQuery + Tableau on ~3.3M orders (day/hour × product × segment) with market-basket analysis.
+**Instacart** is an online grocery marketplace where repeat behavior and timing drive revenue. Stakeholders lacked clarity on **when** customers order and which items to market. This project **segmented customers** by purchase cadence, identified **peak ordering windows**, and uncovered reliable **product complements** to guide merchandising and messaging. Scope: BigQuery + Tableau on **~3.3M orders** (day/hour × product × segment) with market-basket analysis.
 
 [links to the technical parts, including ERD - intent to separate it from the main ReadMe]
 
-The interactive dashboard can be seen here..
+The interactive dashboard can be seen [here] 
 
 ## Executive Summary
 We aim to grow weekly orders **without discounts** by showing the right products to the right customers at the right time. Using **SQL (BigQuery)** and **Tableau Public**, I built an interactive dashboard (orders by **segment, hour, day, product, and KPIs**) and quantified **peak windows**. 42% of orders come from **Bi-weekly shoppers**, with most activity **8am–6pm** on **Sun/Mon/Tue**, concentrated in **Produce**.
-
-[dashboard]
-
-The interactive dashboard can be seen here.
 
 ## Business Problem
 Grocery demand is routine-driven and time-sensitive. Treating every shopper and hour the same leaves revenue on the table. This work pinpoints when orders cluster, what products dominate, and who (by frequency segment) is most responsive—so marketing and operations can act where it matters most.
@@ -30,6 +26,9 @@ Grocery demand is routine-driven and time-sensitive. Treating every shopper and 
 The self-serve dashboard (segment × day × hour × product + KPIs) gives instant visibility and reduces ad-hoc tasks. Analysis shows **Bi-weekly shoppers** drive 42% of orders, with peaks **Sun/Mon/Tue 8am–6pm** in Produce. A simple what-if indicates that a +7–12% uplift inside that window yields **~+3–5%** overall weekly orders.
 
 ## Recommendations
+<img width="1190" height="853" alt="image (3)" src="https://github.com/user-attachments/assets/622c1130-cefb-4c6f-a1a8-b134e1551dd1" />
+The interactive dashboard can be seen [here] 
+
 Feature **Produce** leaders during the peak hours, send timed **suggestions** to routine shoppers, and emphasize **cart complements** (notably **Organic Baby Spinach** and **Organic Strawberries**) at add-to-cart/checkout. **Expected impact: ~3–5% lift in weekly orders** over 4–6 weeks, to be validated with an A/B (holdout) test.
 1. **Time-boxed merchandising (no discounts)**:
    - On Sun/Mon/Tue 8:00–18:00, feature Produce leaders on homepage/search/category.
@@ -56,3 +55,5 @@ Feature **Produce** leaders during the peak hours, send timed **suggestions** to
 - Broaden complement rules (market-basket associations).
 - If price/cost becomes available, track AOV and margin impact; otherwise use item count as proxy.
 - Note limitations (public dataset; no price/cost/geo). Consider a pipeline with dbt/Snowflake.
+
+[here]: https://public.tableau.com/app/profile/pedro.vinhais/viz/Instacart-CustomerSegmentationandSalesAnalysis/Dashboard1
