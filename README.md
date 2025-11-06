@@ -1,21 +1,23 @@
 # Product Demand Segmentation & Time-Window Merchandising (Grocery eCommerce)
 
 ## Project Background
-**Instacart** is an online grocery marketplace where repeat behavior and timing drive revenue. Stakeholders lacked clarity on **when** customers order and which items to market. This project **segmented customers** by purchase cadence, identified **peak ordering windows**, and uncovered reliable **product complements** to guide merchandising and messaging. Scope: BigQuery + Tableau on **~3.3M orders** (day/hour × product × segment) with market-basket analysis.
+**Instacart** is an online grocery marketplace where repeat behavior and timing drive revenue. Stakeholders lacked clarity on **when** customers order and which **items** to market. This project **segmented customers** by purchase cadence, identified **peak ordering windows**, and uncovered reliable **product complements** to guide merchandising and messaging. Scope: **BigQuery (SQL)** + **Tableau** on **~3.3M orders** (**day/hour × product × segment**) with market-basket analysis.
 
 [links to the technical parts, including ERD - intent to separate it from the main ReadMe]
 
-The interactive dashboard can be seen [here] 
+The interactive dashboard can be seen [here]. 
 
 ## Executive Summary
 We aim to grow weekly orders **without discounts** by showing the right products to the right customers at the right time. Using **SQL (BigQuery)** and **Tableau Public**, I built an interactive dashboard (orders by **segment, hour, day, product, and KPIs**) and quantified **peak windows**. 42% of orders come from **Bi-weekly shoppers**, with most activity **8am–6pm** on **Sun/Mon/Tue**, concentrated in **Produce**.
 
 ## Business Problem
-Grocery demand is routine-driven and time-sensitive. Treating every shopper and hour the same leaves revenue on the table. This work pinpoints when orders cluster, what products dominate, and who (by frequency segment) is most responsive—so marketing and operations can act where it matters most.
+Grocery demand is routine-driven and time-sensitive. Treating every shopper and hour the same leaves revenue on the table. This work pinpoints **when** orders cluster, **what** products dominate, and **who** (by frequency segment) is most responsive—so marketing and operations can act where it matters most.
 
 ## Methodology
 - **Build clean views**: Two BigQuery tables—(1) **orders_core**: order_id, user_id, day, hour, and frequency_segment; (2) **order_products_core**: order_id, product_name, department_name. Segmented users by avg days-since-prior-order (**Weekly ≤7**, **Bi-weekly ≤14**, else **Monthly**).
-- **Analyze & visualize**: Counted distinct orders by **day×hour×segment**, and ranked top products in a Tableau dashboard where all charts cross-filter and update shared KPIs (**Users, Orders, Avg Orders/User**).
+
+- **Analyze & visualize**: Counted distinct orders by **day×hour×segment**, and ranked **top products** in a **Tableau dashboard** where all charts cross-filter and update shared KPIs (**Users, Orders, Avg Orders/User**).
+
 - **Prioritize actions**: Identified **peak windows** and **universal complements** to inform placements, and lifecycle and in-cart suggestions; outlined a simple A/B to measure lift (quantify the increase from time-boxed placements + cohort-timed nudges + cart complements).
 
 ## Skills
@@ -23,7 +25,9 @@ Grocery demand is routine-driven and time-sensitive. Treating every shopper and 
 - **Analytics & Communication**: KPI definition, experiment framing (A/B with holdout), stakeholder-ready storytelling.
 
 ## Results
-The self-serve dashboard (segment × day × hour × product + KPIs) gives instant visibility and reduces ad-hoc tasks. Analysis shows **Bi-weekly shoppers** drive 42% of orders, with peaks **Sun/Mon/Tue 8am–6pm** in **Produce**. A simple what-if indicates that a +7–12% uplift inside that window yields **~+3–5%** overall weekly orders.
+The self-serve dashboard (segment × day × hour × product + KPIs) gives instant **visibility** and reduces ad-hoc tasks.
+
+Analysis shows **Bi-weekly shoppers** drive 42% of orders, with peaks **Sun/Mon/Tue 8am–6pm** in **Produce**. A simple what-if indicates that a +7–12% uplift inside that window yields **~+3–5%** overall weekly orders.
 
 ## Recommendations
 <img width="1190" height="853" alt="image (3)" src="https://github.com/user-attachments/assets/622c1130-cefb-4c6f-a1a8-b134e1551dd1" />
