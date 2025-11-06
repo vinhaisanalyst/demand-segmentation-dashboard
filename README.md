@@ -5,6 +5,8 @@
 
 [links to the technical parts, including ERD - intent to separate it from the main ReadMe]
 
+
+<img width="1190" height="853" alt="image (3)" src="https://github.com/user-attachments/assets/622c1130-cefb-4c6f-a1a8-b134e1551dd1" />
 The interactive dashboard can be seen [here]. 
 
 ## Executive Summary
@@ -30,7 +32,6 @@ The self-serve dashboard (segment × day × hour × product + KPIs) gives instan
 Analysis shows **Bi-weekly shoppers** drive 42% of orders, with peaks **Sun/Mon/Tue 8am–6pm** in **Produce**. A simple what-if indicates that a +7–12% uplift inside that window yields **~+3–5%** overall weekly orders.
 
 ## Recommendations
-<img width="1190" height="853" alt="image (3)" src="https://github.com/user-attachments/assets/622c1130-cefb-4c6f-a1a8-b134e1551dd1" />
 
 Feature **Produce** leaders during the peak hours, send timed **suggestions** to routine shoppers, and emphasize **cart complements** (notably **Organic Baby Spinach** and **Organic Strawberries**) at add-to-cart/checkout. **Expected impact: ~3–5% lift in weekly orders** over 4–6 weeks, to be validated with an A/B (holdout) test.
 1. **Time-boxed merchandising (no discounts)**:
