@@ -3,7 +3,7 @@
 ## Project Background
 **Instacart** is an online grocery marketplace where repeat behavior and timing drive revenue. Stakeholders lacked clarity on **when** customers order and which **items** to market. This project **segmented customers** by purchase cadence, identified **peak ordering windows**, and uncovered reliable **product complements** to guide merchandising and messaging. Scope: **BigQuery (SQL)** + **Tableau** on **~3.3M orders** (**day/hour × product × segment**) with market-basket analysis.
 
-[links to the technical parts, including ERD - intent to separate it from the main ReadMe]
+See data cleaning on Google Colab (Python) --> [notebook]
 
 
 <img width="1190" height="853" alt="image (3)" src="https://github.com/user-attachments/assets/622c1130-cefb-4c6f-a1a8-b134e1551dd1" />
@@ -61,3 +61,4 @@ Feature **Produce** leaders during the peak hours, send timed **suggestions** to
 - Note limitations (public dataset; no price/cost/geo). Consider a pipeline with dbt/Snowflake.
 
 [here]: https://public.tableau.com/app/profile/pedro.vinhais/viz/Instacart-CustomerSegmentationandSalesAnalysis/Dashboard1
+[notebook] : https://colab.research.google.com/drive/1-hH3_eEbeJ9t1DobpOidCJoc63xxYOuJ?usp=sharing
