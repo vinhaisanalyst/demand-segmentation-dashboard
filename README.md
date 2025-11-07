@@ -7,6 +7,7 @@ See data cleaning on Google Colab (Python) --> [notebook]
 
 
 <img width="1190" height="853" alt="image (3)" src="https://github.com/user-attachments/assets/622c1130-cefb-4c6f-a1a8-b134e1551dd1" />
+
 The interactive dashboard can be seen [here]. 
 
 ## Executive Summary
@@ -61,4 +62,4 @@ Feature **Produce** leaders during the peak hours, send timed **suggestions** to
 - Note limitations (public dataset; no price/cost/geo). Consider a pipeline with dbt/Snowflake.
 
 [here]: https://public.tableau.com/app/profile/pedro.vinhais/viz/Instacart-CustomerSegmentationandSalesAnalysis/Dashboard1
-[notebook] : https://colab.research.google.com/drive/1-hH3_eEbeJ9t1DobpOidCJoc63xxYOuJ?usp=sharing
+[notebook]: https://colab.research.google.com/drive/1-hH3_eEbeJ9t1DobpOidCJoc63xxYOuJ?usp=sharing
