@@ -4,11 +4,11 @@
 **Instacart** is an online grocery marketplace where repeat behavior and timing drive revenue. Stakeholders lacked clarity on **when** customers order and which **items** to market. This project **segmented customers** by purchase cadence, identified **peak ordering windows**, and uncovered reliable **product complements** to guide merchandising and messaging. Scope: **BigQuery (SQL)** + **Tableau** on **~3.3M orders** (**day/hour × product × segment**) with market-basket analysis.
 
 See data cleaning on Google Colab (Python) --> [notebook]
-
+See the interactive dashboard [here].
 
 <img width="1190" height="853" alt="image (3)" src="https://github.com/user-attachments/assets/622c1130-cefb-4c6f-a1a8-b134e1551dd1" />
 
-The interactive dashboard can be seen [here]. 
+ 
 
 ## Executive Summary
 We aim to grow weekly orders **without discounts** by showing the right products to the right customers at the right time. Using **SQL (BigQuery)** and **Tableau Public**, I built an interactive dashboard (orders by **segment, hour, day, product, and KPIs**) and quantified **peak windows**. 42% of orders come from **Bi-weekly shoppers**, with most activity **8am–6pm** on **Sun/Mon/Tue**, concentrated in **Produce**.
