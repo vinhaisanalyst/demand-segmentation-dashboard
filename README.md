@@ -37,13 +37,13 @@ Analysis shows **Bi-weekly shoppers** drive 42% of orders, with peaks **Sun/Mon/
 
 Feature **Produce** leaders during the peak hours, send timed **suggestions** to routine shoppers, and emphasize **cart complements** (notably **Organic Baby Spinach** and **Organic Strawberries**) at add-to-cart/checkout. **Expected impact: ~3–5% lift in weekly orders** over 4–6 weeks, to be validated with an A/B (holdout) test.
 1. **Time-boxed merchandising (no discounts)**:
-   - On Sun/Mon/Tue 8:00–18:00, feature Produce leaders on homepage/search/category.
-   - Promote two universal complements alongside the most popular items: Organic Baby Spinach and Organic Strawberries.
+   - On **Sun/Mon/Tue** **8am–6pm**, feature **Produce** leaders on homepage/search/category.
+   - Promote two universal complements alongside the most popular items: **Organic Baby Spinach** and **Organic Strawberries**.
 2. **Lifecycle suggestions (cohort-timed, no discounts)**:
    - Weekly cohort: send T+7 (late morning) with last-order staples prefilled.
    - Bi-weekly cohort: send T+14 (late morning), same prefill approach.
 3. **Cart complements (in-cart & checkout)**:
-   - When an anchor (e.g., Banana, Bag of Organic Bananas, or Organic Hass Avocado) is added, suggest Organic Baby Spinach and/or Organic Strawberries (suppress if already in cart; respect stock).
+   - When an anchor (e.g., Banana, Bag of Organic Bananas, or Organic Hass Avocado) is added, suggest **Organic Baby Spinach** and/or **Organic Strawberries** (suppress if already in cart; respect stock).
    - Cap suggestions at two to reduce banner fatigue.
 4. **Ops alignment**:
    - Staff picking and prioritizing inventory checks for highlighted departments during Sun/Mon/Tue afternoons.
