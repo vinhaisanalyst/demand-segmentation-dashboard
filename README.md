@@ -32,7 +32,6 @@ The self-serve dashboard (segment × day × hour × product + KPIs) gives instan
 Analysis shows **Bi-weekly shoppers** drive 42% of orders, with peaks **Sun/Mon/Tue 8am–6pm** in **Produce**. A simple what-if indicates that a +7–12% uplift inside that window yields **~+3–5%** overall weekly orders.
 
 <img width="605" height="128" alt="image (4)" src="https://github.com/user-attachments/assets/4dc1d0e3-b8ab-4335-93f2-91d54086811b" />
-
 ## Recommendations
 
 Feature **Produce** leaders during the peak hours, send timed **suggestions** to routine shoppers, and emphasize **cart complements** (notably **Organic Baby Spinach** and **Organic Strawberries**) at add-to-cart/checkout. **Expected impact: ~3–5% lift in weekly orders** over 4–6 weeks, to be validated with an A/B (holdout) test.
