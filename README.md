@@ -7,9 +7,7 @@
 
 - See the interactive dashboard [here].
 
-      <img width="1190" height="853" alt="image (3)" src="https://github.com/user-attachments/assets/622c1130-cefb-4c6f-a1a8-b134e1551dd1" />
-
- 
+<img width="1190" height="853" alt="image (3)" src="https://github.com/user-attachments/assets/622c1130-cefb-4c6f-a1a8-b134e1551dd1" />
 
 ## Executive Summary
 We aim to grow weekly orders **without discounts** by showing the right products to the right customers at the right time. Using **SQL (BigQuery)** and **Tableau Public**, I built an interactive dashboard (orders by **segment, hour, day, product, and KPIs**) and quantified **peak windows**. 42% of orders come from **Bi-weekly shoppers**, with most activity **8am–6pm** on **Sun/Mon/Tue**, concentrated in **Produce**.
